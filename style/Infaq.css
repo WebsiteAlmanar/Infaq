@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Poppins:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Nanum+Gothic:wght@800&family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap');
+.badan {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #699B9E;
+}
+
+.infaq {
+    position: absolute;
+    width: 70%;
+    height: 21%;
+    top: -7%;
+    left: 25%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 180%;
+    line-height: 150%;
+    /* identical to box height */
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.tulisan {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    left: 20%;
+    top: 12%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42.2339px;
+    line-height: 150%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.tombolinfaq1 {
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 72.9%;
+    width: 18%;
+    height: 10%;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+}
+
+.tombolinfaq1 p {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 0%;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #666666;
+}
+
+.inf1 {
+    text-decoration: none;
+}
+
+.infq {
+    position: absolute;
+    width: 65%;
+    height: 90%;
+    left: -30%;
+    top: -10%;
+    filter: drop-shadow(0px -5px 4px rgba(231, 227, 255, 0.25)) drop-shadow(-10px 5px 10px rgba(231, 227, 255, 0.25));
+}
+
+.kotak {
+    position: absolute;
+    width: 80%;
+    height: 35%;
+    top: 120%;
+    left: 10%;
+    background: #FFFFFF;
+    box-shadow: -6px 8px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.penerima,
+.penghimpun,
+.penyaluran,
+.donatur {
+    position: absolute;
+    width: 20%;
+    height: 75%;
+    top: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.penerima {
+    left: 10%;
+}
+
+.penghimpun {
+    left: 33%;
+}
+
+.penyaluran {
+    left: 57%;
+}
+
+.donatur {
+    left: 80%;
+}
+
+.penerima h3,
+.penghimpun h3,
+.penyaluran h3,
+.donatur h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: -5%;
+}
+
+.penerima h3 {
+    width: 107%;
+    margin-left: -18%;
+}
+
+.penghimpun h3 {
+    margin-left: -11%;
+}
+
+.penyaluran h3 {
+    margin-left: -1%;
+}
+
+.donatur h3 {
+    margin-left: 6%;
+}
+
+.penerima h2,
+.penghimpun h2,
+.penyaluran h2,
+.donatur h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #00749A;
+    margin-top: 1%;
+}
+
+.penerima h2 {
+    margin-left: -5%;
+}
+
+.penghimpun h2 {
+    margin-left: -22%;
+}
+
+.penyaluran h2 {
+    margin-left: -20%;
+}
+
+.donatur h2 {
+    margin-left: 16%;
+}
+
+.kotakinfaq {
+    position: absolute;
+    width: 60%;
+    height: 130%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-top: 95%;
+}
+
+.judul {
+    left: 7.5%;
+    top: 7.5%;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 85%;
+    height: 85%;
+    border-width: 10%;
+    border: 6.6px solid #699B9E;
+}
+
+.judul img {
+    margin-top: 3%;
+    margin-left: 20%;
+    filter: drop-shadow(-2px 5px 5px rgba(105, 155, 158, 0.8));
+}
+
+.judul p {
+    margin-top: -19%;
+    margin-left: 45%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 139px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #B4CDCF;
+    -webkit-text-stroke: 3px solid #547C7E;
+}
+
+.garis {
+    width: 101%;
+    height: 0.5%;
+    margin-top: -14%;
+    margin-left: -1%;
+    background-color: #699b9e;
+    border: 0.05em solid #699B9E;
+}
+
+.judul h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #699B9E;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.judul h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #699B9E;
+    margin-left: 8%;
+    margin-top: -5%;
+}
+
+.judul h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #699B9E;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.kotaka {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    margin-left: 8%;
+    margin-top: -3%;
+    background: #FFFFFF;
+    border: 2px solid #699B9E;
+    border-radius: 9px 0px 0px 9px;
+}
+
+.kotaka h2,
+.kotakb input,
+.kotakb ::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    color: #699B9E;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.kotakb input {
+    position: absolute;
+    width: 68%;
+    height: 14.7%;
+    margin-left: 23%;
+    margin-top: -3%;
+    background-color: #FFFFFF;
+    border: 2px solid #699B9E;
+    border-radius: 0px 9px 9px 0px;
+}
+
+.kotakb input:focus {
+    outline: none;
+}
+
+.tombolinfaq2 {
+    width: 35%;
+    height: 6%;
+    margin-left: 57%;
+    background: #699B9E;
+    border-radius: 10px;
+    margin-top: 30%;
+}
+
+.tombolinfaq2 p {
+    width: 200%;
+    margin-left: 7%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 39px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.inf2 {
+    text-decoration: none;
+}
+
+.program {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    left: 5%;
+    top: 340%;
+    border-radius: 8.59432px;
+}
+.program h1, .berita h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 35%
+}
+.program .latar1, .program .latar2, .program .latar3{
+    position: absolute;
+    width: 30%;
+    height: 60%;    
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.program .latar1{margin-left: 0%;}.program .latar2{margin-left:35%}.program .latar3{margin-left: 70%;}
+.program .atas1, .program .atas2, .program .atas3{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), #699B9E;
+    border-radius: 20px 20px 0px 0px;
+}
+.program .atas1{margin-left: 0%;}.program .atas2{margin-left: 35%;}.program .atas3{margin-left: 70%;}
+.program .latar1 h2, .program .latar2 h2, .program .latar3 h2{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 42px;
+    color: #000000;
+    margin-top: -13%;
+    margin-left: 3%;
+}
+.program .latar1 img,.program .latar2 img, .program .latar3 img{
+    width: 15%;
+    height: 15%;
+    margin-top: 70%;
+    margin-left: 3%;
+}
+.program .latar1 h3, .program .latar2 h3, .program .latar3 h3{
+    width: 180%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: -42%;margin-left: 22%;
+}
+.tmbl1 {
+    position: absolute;
+    width: 26%;
+    height: 8%;
+    left: 500.23px;
+    top: 500px;
+    border: 7px;
+    background: #EA5167;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Ligconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: -55%;
+    margin-left: -143%;
+}
+
+.tmbl1 p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tmbl1 p:hover {
+    color: #000000;
+    transition: 200ms ease-in-out;
+} 
+
+
+.program h2 {
+    position: absolute;
+    width: 500.77px;
+    height: 64.46px;
+    top: 220.2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38.6744px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.program h3 {
+    position: absolute;
+    width: 99px;
+    height: 52px;
+    top: 380px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34.3474px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.berita{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 10%;
+    top: 450%;
+    border-radius: 8.59432px;
+}
+.berita .berita1, .berita .berita2{
+    position: absolute;
+    width: 45%;
+    height: 55%;    
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.berita .berita2{
+    left: 55%;
+}
+.berita h2{
+    position: absolute;
+    margin-top: 45%;
+    width: 90%;
+    margin-left: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+}
+.berita h3{
+    position: absolute;
+    margin-top: 62.75%;
+    margin-left: 68%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    text-align: justify;
+    color: #000000;
+}
+.berita .tmbl1{
+    width: 20%;
+    margin-top: -47%;
+    margin-left: -105%;
+}
+.berita img{
+    position:absolute;
+    margin-top: 62%;
+    margin-left: 90%;
+}
+.berita .atas{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    background: #C4C4C4;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.nextprev{
+    margin-top: 265%;
+}
+.nomor {
+    width: 7%;
+    height: 10%;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.n1 {
+    left: 36.5%;
+}
+
+.n2 {
+    left:46.5%;
+}
+
+.n3 {
+    left: 56.5%;
+}
+
+.kiri {
+    font-family: 'Nanum Gothic';
+    border-radius: 100px;
+    transform: rotate(-180deg);
+    left: 26.5%;
+}
+
+.kanan {
+    font-family: 'Nanum Gothic';
+    border-radius: 100px;
+    transform: rotate(-180deg);
+    left: 66.5%;
+}
